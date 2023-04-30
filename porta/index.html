@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jogo das portas</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Jogo da Portas</h1>
+	<p>Escolha uma porta (1 ou 2) e faça uma pergunta cuja resposta seja verdadeira ou falsa.</p>
+	<label for="porta">Escolha uma porta:</label>
+	<input type="number" id="porta" name="porta" min="0,1" max="0,2"><br><br>
+	<label for="pergunta">Faça sua pergunta:</label>
+	<input type="text" id="pergunta" name="pergunta"><br><br>
+	<button onclick="jogar()">Jogar</button>
+	<p id="resposta"></p>
+</body>
+<script src="script.js"></script>
+</html>
+
