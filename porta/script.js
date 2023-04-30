@@ -1,5 +1,3 @@
-
-
 function jogar() {
     let n_aleatorio = Math.floor(Math.random() * 2);
     let escolha_porta = document.getElementById("porta").value;
